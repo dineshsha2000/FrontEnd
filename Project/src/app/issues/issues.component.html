@@ -5,6 +5,39 @@
   </head>
 
   <body class="main">
-    ISSUES
+    <div class="row">
+    <h3>ISSUES</h3>
+      
+        <h5 class=drop1>showing sprint</h5>
+        <div class="drop1">
+        <select class="col-sm-5 col-md-12" >
+          <option *ngFor="let emp of department">
+          {{emp}}
+          </option>
+        </select>
+      </div >
+        <h5 class="drop1">
+         Showing Issue of 
+        </h5>  
+        <div class="drop1">
+       <select class="col-sm-5 col-md-12">
+         <option *ngFor="let mem of member">
+             {{mem}}
+         </option>
+       </select>
+      </div>
+      <button class="bu1">
+        Create New Issue
+      </button>
+  </div>
+  
+  <div class="box1">
+
+
+  </div>
+  <div class="box2">
+
+  </div>
+    
 </body>
 </html>
