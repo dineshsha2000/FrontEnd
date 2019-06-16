@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./teamissue.component.css']
 })
 export class TeamissueComponent implements OnInit {
-
+   issue=['']
   constructor() { }
 
   ngOnInit() {
